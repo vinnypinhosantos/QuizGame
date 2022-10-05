@@ -12,11 +12,11 @@ O projeto consiste de quatro arquivos python que usam programação orientada a 
 
 #### quiz_brain
 Uma classe de controle do funcionamento do programa, que possui os seguintes métodos:
-*Construtor: começa o programa pela pergunta n° 0 (question_number = 0), com a pontuação também igual a zero 
+* Construtor: começa o programa pela pergunta n° 0 (question_number = 0), com a pontuação também igual a zero 
 e na criação do objeto deve-se ter apenas o parâmetro com a lista de perguntas.
-*still_has_questions: verifica se o usuário já respondeu todas as perguntas.
-*next_question: formata o texto com o número da questão e a pergunta em si e chama a função check_answer.
-*check_answer: verifica se o usuário acertou a resposta ou não. Tem como parâmetros a resposta do usuário
+* still_has_questions: verifica se o usuário já respondeu todas as perguntas.
+* next_question: formata o texto com o número da questão e a pergunta em si e chama a função check_answer.
+* check_answer: verifica se o usuário acertou a resposta ou não. Tem como parâmetros a resposta do usuário
 e a resposta correta. Além disso, mostra e controla a pontuação do usuário
 
 #### data
